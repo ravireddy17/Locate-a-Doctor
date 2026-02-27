@@ -1,0 +1,22 @@
+.button-group{
+    margin: 2% 20%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    /* position: absolute;
+    bottom: 30;
+    right: 10%; */
+}
+.predictor-inner-container{
+    margin:5% 20%;
+    display: grid;
+    gap: 20px;
+}
+.predicted-disease-name,.predicted-precautions-title{
+    font-weight: bold;
+    font-size: x-large;
+}
+.predicted-disease-description{
+    font-size: larger;
+    text-align: justify;
+}

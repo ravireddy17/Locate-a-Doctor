@@ -1,0 +1,23 @@
+.fedback-component{
+    font-size: 50px;
+}
+.fedback-component-stack{
+    margin-left: 35%;
+
+}
+.feedback-outercontainer{
+    margin-top: 30px;
+    /* margin-left: 30%; */
+}
+.feedback-input{
+    outline: none;
+    border: 1px solid green;
+    width: 50%;
+    margin-left: 20%;
+    border-radius: 20px;
+    padding: 20px;
+    height: 20vh;
+}
+.feedback-button-container{
+    margin-left: 35%;
+}

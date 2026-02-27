@@ -1,0 +1,37 @@
+.Symptom-input-selector{
+    height: 50px;
+    width: 80%;
+}
+.selected-symptoms-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 20px;
+    gap: 20px;
+}
+.selected-symptoms-list-item{
+    align-items: center;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+.selected-symptoms-list-item-text{
+    text-align: center;
+}
+.selected-symptoms-list-item-icon{
+    margin: auto;
+}
+.dashboard-inner-container{
+    margin:20px;
+    
+}
+.submit-symptoms-button{
+    position:absolute;
+    bottom:5%;
+    right:5%;
+}
+.symptoms-input-section{
+    position:relative;
+}

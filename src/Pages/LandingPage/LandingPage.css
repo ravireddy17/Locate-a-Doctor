@@ -1,0 +1,9 @@
+.landing-head{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}

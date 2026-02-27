@@ -1,0 +1,40 @@
+.register-outer-container{
+    background-color: #F4FFFA;
+    min-height: 60vh;
+    width: 70%;
+    margin: auto;
+    border-radius: 40px;
+    text-align: center;
+}
+.register-details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.register-inputStyle{
+    width: 45%;
+}
+.register-inputStyle > input{
+    width: 100%;
+    padding: 2px 4px;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-radius: 4px;
+    outline: none;
+    background-color: rgba(248, 248, 248, 0.662);
+
+}
+.modal-message{
+    padding: 20px;
+    color: white;
+    font-size: large;
+}
+@keyframes scaleAnimation {
+    0% {
+      transform: scale(1) rotateY(180deg) rotateX(180deg);
+    }
+
+  }
+.modal-button{
+    margin: auto;
+}

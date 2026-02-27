@@ -1,0 +1,119 @@
+.dashboard-outer-container{
+    background-color: #F4FFFA;
+    min-height: 80vh;
+    width: 70%;
+    margin: auto;
+    border-radius: 20px;
+}
+.dashboard-header{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #239F6B;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+}
+.dashboard-header-menu{
+    cursor: pointer;
+    padding: 5px 10px;
+    width: 80%;
+    background-color: #CFF9E8;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    align-items: center;
+}
+.dashboard-header-text{
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+.user-logo{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.icon-transition{
+    transition: transform 0.3s ease;
+}
+.user-logo-arrow{
+    margin: auto;
+}
+.dashboard-menu-list{
+    padding: 50px;
+    display: grid;
+    row-gap: 20px;
+}
+.dashboard-menu-list-item:nth-child(even){
+    background-color: #8A5D5D;
+    border: 2px solid #7C1212;
+}
+.dashboard-menu-list-item:nth-child(odd){
+    background-color: #5D648A;
+    border: 2px solid #0A1C77;
+}
+.dashboard-menu-list-item{
+    cursor: pointer;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 95% 5%;
+    align-items: center;
+    border-radius: 10px;
+    transition: transform 2s ease;
+}
+.dashboard-menu-list-item-text{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+.dashboard-menu-list-item-content{
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+    border-top: 1px solid white;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.appointments-list-item{
+    background-color: #225C65;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.appointment{
+    display: grid;
+    row-gap: 20px;
+}
+.appointments-list-item-content{
+    margin: 20px;
+    text-align: left;
+    display: grid;
+    row-gap: 5px;
+}
+.appointments-list-item-content>div{
+    color: white;
+    font-family: league spartan;
+    font-weight: 400;
+}
+.appointment-number{
+    font-size: larger;
+    font-weight: 900;
+}
+.Appointment-details{
+    display: grid;
+    row-gap: 25px;
+    text-align: start;
+}
+.appointment-date-time{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.white-text{
+    color: white;
+}
+.appointment-date-time>div{
+    font-size: larger;
+}

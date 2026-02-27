@@ -1,0 +1,57 @@
+.primary{
+  color: var(--white);
+  background-color: var(--green);
+  min-width: 150px;
+  max-width: 250px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.Cancel{
+color:black !important;
+  background-color: #FFD6D6;
+  min-width: 150px;
+  max-width: 250px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.default-button {
+  color: white;
+  cursor: pointer;
+}
+
+.disabled-button {
+  cursor: not-allowed;
+}
+.Reschedule{
+  background-color: #DDFAFF;
+  color:black !important;
+  min-width: 150px;
+  max-width: 250px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.Admin-dashboard{
+  background-color: #2D239F;
+  min-width: 150px;
+  max-width: 250px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.doctor-button{
+  color: var(--white);
+  background-color: #dd003db8;
+  min-width: 150px;
+  max-width: 250px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 20px;
+}

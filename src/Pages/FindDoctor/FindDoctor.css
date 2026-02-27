@@ -1,0 +1,119 @@
+.doctors-list-displayer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px; /* Improved cross-browser compatibility */
+    margin: 20px;
+}
+.doctors-list-item-logo{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.doctors-list-item-logo>img{
+    /* mix-blend-mode:exclusion; */
+    height: 200px;
+    width: 200px;
+    transition: all 0.2s ease;
+}
+.doctors-list-item-logo>img:hover{
+    scale: 1.2;
+}
+.doctors-list-item{
+    cursor: pointer;
+    text-align: center;
+    display: grid;
+    row-gap: 20px;
+    border: 2px solid #239F6B;
+    border-radius: 20px;
+}
+.doctors-list-item-details{
+    text-align: center;
+    margin: 0 auto;
+}
+.doctor-detail-section{
+    margin : 20px;
+}
+.doctor-name-logo{
+    display: grid;
+    grid-template-columns: 15% 40% 40%;
+    align-items: center;
+    gap: 25px;
+}
+.doctor-logo{
+    width: 120px;
+    height: 120px;
+    border: 2px solid green;
+    text-align: center ;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.doctor-logo>img{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.doctor-logo>img:hover{
+    scale: 1.2;
+}
+.doctor-name-specialization{
+    display: grid;
+    gap: 10px;
+}
+.doctor-name{
+    font-size: large;
+    font-weight: bold;
+}
+.show-doctor-book-appointment{
+    display:grid;
+    text-align: start;
+    text-transform: capitalize;
+}
+.doctor-description-details{
+    text-align: start;
+    margin-top: 2%;
+    display: grid;
+    gap: 20px;
+}
+.doctor-description-title{
+    font-size: medium;
+    font-weight: 600;
+}
+.doctor-description-content{
+    text-align:justify;
+}
+.book-appointment-button{
+    justify-content: center;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Responsive grid */
+    gap: 1rem; /* Responsive gap */
+}
+
+.appointment-time-selector{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.appointment-time-selector-text{
+    font-size: large;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.appointment-time-selector-input{
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.appointment-time-selector-input>input{
+    height: 100%;
+}
+
+  .maps{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+  }

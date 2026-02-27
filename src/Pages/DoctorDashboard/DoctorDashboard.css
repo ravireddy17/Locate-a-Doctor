@@ -1,0 +1,21 @@
+/* FFC8D5 */
+.doctor-dashboard-header{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #9F2341 !important;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+}
+.doctor-dashboard-header-menu{
+    cursor: pointer;
+    padding: 5px 10px;
+    width: 80%;
+    background-color: #FFC8D5 !important;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    align-items: center;
+}

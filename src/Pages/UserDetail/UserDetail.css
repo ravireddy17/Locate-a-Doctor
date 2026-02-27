@@ -1,0 +1,8 @@
+.user-update {
+    width: 100%;
+    padding: 20px;
+}
+.update-buttons{
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,7 @@
+.Typography{
+    color: darkgreen;
+    text-transform: capitalize;
+}
+.Typography:hover{
+    color: #239F6B;
+}

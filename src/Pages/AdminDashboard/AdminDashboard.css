@@ -1,0 +1,37 @@
+
+.doctor-dashboard-header-menu{
+    cursor: pointer;
+    padding: 5px 10px;
+    width: 80%;
+    background-color: #DBD8FF !important;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    align-items: center;
+}
+.admin-dashboard-content{
+    margin: 5% 2% ;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: start;
+}
+.action-buttons{
+    justify-content: center;
+    display: grid;
+    row-gap: 10%;
+}
+.admin-logo{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 30% 20%;
+    
+}
+.admin-profile-details{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.admin-details{
+    letter-spacing: 3px;
+    word-spacing: 6px;
+}

@@ -1,0 +1,73 @@
+.dashboard-headers{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: grid;
+    grid-template-columns:10% 80% 10%;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+}
+.dashboard-header-menu{
+    cursor: pointer;
+    position: relative;
+    padding: 5px 10px;
+    width: 80%;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    align-items: center;
+}
+.dashboard-dropdown{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    position: absolute;
+    text-wrap: nowrap;
+    background-color: #CFF9E8;
+    top: 50px;
+    left: -10px;
+    border-radius: 10px;
+    padding: 5px 3px;
+}
+.dashboard-dropdown a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+.dashboard-dropdown div:hover{
+    background-color: #41d696;
+}
+.dashboard-header-text{
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+.user-logo{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.patient{
+    background-color: #239F6B !important;
+}
+.patient>.dashboard-header-menu{
+    background-color: #CFF9E8;
+}
+.doctor{
+    background-color: #9F2341;
+}
+.doctor>.dashboard-header-menu{
+    background-color: #FFC8D5;
+}
+.admin{
+    background-color: #2D239F;
+}
+.admin>.dashboard-header-menu{
+    background-color: #94c2d9;
+}
+.admin-dropdown{
+    background-color: #94c2d9;
+}
+.doctor-dropdown{
+    background-color: #FFC8D5;
+}

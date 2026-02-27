@@ -1,0 +1,51 @@
+.login-outer-container{
+    background-color: #F4FFFA;
+    min-height: 50vh;
+    width: 40%;
+    margin: auto;
+    border-radius: 40px;
+    text-align: center;
+}
+.login-header{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #239F6B;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    color: var(--white);
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.login-details{
+    /* padding-top: 20px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 25px;
+    background-color: var(--white);
+}
+.LoginInput{
+    height: 40px;
+    border: 2px solid var(--primaryBg);
+    border-radius: 5px;
+    width: 20rem;
+}
+
+.LoginInput:focus{
+    outline-color: var(--green);
+    border-color: var(--green);
+}
+.input-label{
+    color: black;
+    text-transform: capitalize;
+    font-size: large;
+    padding-bottom: 5px;
+}
